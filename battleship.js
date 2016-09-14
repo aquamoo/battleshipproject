@@ -90,7 +90,7 @@ var gameBoard = [
 				                    }
 				                    else {
 
-				                            document.getElementById("s" + row + (column - 1)).style.background = "grey";
+				                            document.getElementById("s" + row + (column - 1)).style.background = "blue";
 
 				                    }
 				                    var userInput = $("fireInput").val();
