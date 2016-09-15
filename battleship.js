@@ -81,7 +81,7 @@ var gameBoard = [
 				                                torpedo = document.getElementById("fireInput").value;
 				                                    x = torpedo.substring(0, 1);
 				                                        row = letterConversion[x];
-				                                column = torpedo.substring(1, 3);
+				                                 column = torpedo.substring(1, 3);
 
 				                if (gameBoard[row][column - 1] == 1){
 
